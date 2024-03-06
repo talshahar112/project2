@@ -1,0 +1,92 @@
+body{
+background-image:url(https://onlyboards.co.il/wp-content/uploads/2019/05/shaamframeboardzoombclear.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.headLine{
+text-align:center; margin:0 auto;
+font-family: 'Rammetto One', sans-serif;
+}
+
+.form{
+    text-align: center;
+    background-image: url(/folder.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 	width 250px;
+	height: 80px;
+
+}
+
+.inputs{
+    position: relative;
+    top: 25px;
+    right: 3px;
+}
+
+
+.fadeInImage { 
+background-image: url(/notebg.jpg);
+  width: 200px;
+  height: 250px;
+  animation: animate1 1s forwards ease-in;
+  display: inline-flex;
+}
+
+  @keyframes animate1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.taskDiv{
+  background-image: url(./notebg.png);
+  height: 256px;
+  width: 200px;
+  animation: animate1 1s forwards ease-in;
+}
+
+
+.taskContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: auto;
+  }
+
+  .taskText{
+    position: relative;
+    left: 4px;
+    top: 46px;
+    height: 74Px;
+  }
+
+  .deleteButton {
+    opacity: 0;
+    position: relative;
+    right: -141px;
+    top: -148px;
+  }
+
+.bi-file-excel-fill::before {
+    content: "\f395";
+    font-size: medium;
+}
+
+  .taskDiv:hover .deleteButton {
+    opacity: 1;
+  }
+  
+  p {
+position: relative;
+    top: 91px;
+    right: -7px;
+}
+
+
+
+
